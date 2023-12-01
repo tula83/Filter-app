@@ -1,0 +1,30 @@
+.recommend{
+     margin-left:15rem;
+     border-bottom: 2px solid #eee;
+    
+     
+}
+
+.recommend-flex{
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    margin-bottom: 20px;
+}
+
+.btns {
+        padding: 10px 20px;
+        margin-right: 6px;
+        background: transparent;
+        border: none;
+        border: 0.6px solid #ccc;
+        border-radius: 5px;
+        color: #323232;
+        cursor: pointer;
+        transition: ease-in-out 0.5s;
+  }
+
+.btns:hover{
+    background-color: blue;
+    color: #fff;
+}
